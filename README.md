@@ -1,6 +1,7 @@
 # commit-tendency
-* github actions 연습용으로 만들었습니다. 
+* github oAuth Login 연습용으로 만들었습니다. 
 
 ## stack
 * NextJS `14.1.0`
-* github actions
+* Node `20`
+* npm `10.3`
