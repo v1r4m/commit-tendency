@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(request: NextRequest) {
-    return NextResponse.json({"message":"hello world"});
+    //get url param
+    const code = request.nextUrl.searchParams.get("code");
+    return NextResponse.json({"code":code});
 }

@@ -1,5 +1,5 @@
 export default function Home() {
-  const githubUrl = `https://github.com/login/oauth/authorize?client_id=${process.env.GITHUB_CLIENT_ID_LOCAL}&redirect_uri=http://localhost:3000/login/github/callback`;
+  const githubUrl = `https://github.com/login/oauth/authorize?client_id=${process.env.GITHUB_CLIENT_ID_LOCAL}&redirect_uri=http://localhost:3000/github`;
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <h1 className="text-6xl font-bold">Welcome to Commit Tendency</h1>
